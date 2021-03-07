@@ -1,0 +1,16 @@
+C:\Users\John\Desktop\chris\Mon-Portefolio\C#\Console\Banque\obj\Debug\net5.0\Banque.csprojAssemblyReference.cache
+C:\Users\John\Desktop\chris\Mon-Portefolio\C#\Console\Banque\obj\Debug\net5.0\Banque.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\John\Desktop\chris\Mon-Portefolio\C#\Console\Banque\obj\Debug\net5.0\Banque.AssemblyInfoInputs.cache
+C:\Users\John\Desktop\chris\Mon-Portefolio\C#\Console\Banque\obj\Debug\net5.0\Banque.AssemblyInfo.cs
+C:\Users\John\Desktop\chris\Mon-Portefolio\C#\Console\Banque\obj\Debug\net5.0\Banque.csproj.CoreCompileInputs.cache
+C:\Users\John\Desktop\chris\Mon-Portefolio\C#\Console\Banque\bin\Debug\net5.0\Banque.exe
+C:\Users\John\Desktop\chris\Mon-Portefolio\C#\Console\Banque\bin\Debug\net5.0\Banque.deps.json
+C:\Users\John\Desktop\chris\Mon-Portefolio\C#\Console\Banque\bin\Debug\net5.0\Banque.runtimeconfig.json
+C:\Users\John\Desktop\chris\Mon-Portefolio\C#\Console\Banque\bin\Debug\net5.0\Banque.runtimeconfig.dev.json
+C:\Users\John\Desktop\chris\Mon-Portefolio\C#\Console\Banque\bin\Debug\net5.0\Banque.dll
+C:\Users\John\Desktop\chris\Mon-Portefolio\C#\Console\Banque\bin\Debug\net5.0\ref\Banque.dll
+C:\Users\John\Desktop\chris\Mon-Portefolio\C#\Console\Banque\bin\Debug\net5.0\Banque.pdb
+C:\Users\John\Desktop\chris\Mon-Portefolio\C#\Console\Banque\obj\Debug\net5.0\Banque.dll
+C:\Users\John\Desktop\chris\Mon-Portefolio\C#\Console\Banque\obj\Debug\net5.0\ref\Banque.dll
+C:\Users\John\Desktop\chris\Mon-Portefolio\C#\Console\Banque\obj\Debug\net5.0\Banque.pdb
+C:\Users\John\Desktop\chris\Mon-Portefolio\C#\Console\Banque\obj\Debug\net5.0\Banque.genruntimeconfig.cache
