@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Me contacter || Ely Pwet</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id ="corp_de_page">
+            <header>
+                <h1>Ely Pwet</h1>
+    
+                <nav>
+                    <ul>
+                        <li><a href="Accueil.html"> <h2>Acceuil</h2> </a></li>
+                        <li><a href="#"> <h2>Dessin / 3D</h2> </a></li>
+                        <li><a href="#"> <h2>Inktober</h2> </a></li>
+                        <li><a href="#"> <h2>Actualité</h2> </a></li>
+                        <li><a href="contact.html" id = "selected"> <h2>Me contacter</h2> </a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section id = "contact_page">
+                <div id = "who">
+                    <p>
+                        <h1>Qui suis-je ?</h1>
+
+                        <img src="/images/contact/photo de profil.png" alt="">
+
+                        Bonjour tout le monde, je m'appel Ely 
+                    </p>
+                </div>
+                <div id = "contact_us">
+                    <form action="POST">
+                        <fieldset id = "form">
+                            <legend><h1>Me contacter : </h1></legend>
+
+                            <label for="Nom">
+                                Nom :
+                                <br>
+                                <input type="text" id = "name" required>
+                                <br>
+                                <br>
+                            </label>
+                            <label for="fistname">
+                                Prénom :
+                                <br>
+                                <input type="text" id = "fistname" required>
+                                <br>
+                                <br>
+                            </label>
+                            <label for="Email">
+                                Email :
+                                <br>
+                                <input type="text" id = "email" required>
+                                <br>
+                                <br>
+                            </label>
+                            <label for="Message">
+                                Message :
+                                <br>
+
+                                <textarea name="message" id="message" cols="50" rows="10"></textarea>
+
+                                <br>
+                                <br>
+                            </label>
+                    
+                            <input type="submit" value="Envoyé" id = "send">
+                        </fieldset>
+                    </form>
+                </div>
+            </section>
+        </div>
+
+        <script src="script_contact.js"></script>
+    </body>
+</html>
