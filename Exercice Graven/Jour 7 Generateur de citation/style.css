@@ -1,0 +1,56 @@
+body
+{
+    margin:auto;
+
+    width: 920px;
+
+    margin-bottom: 55px;
+
+    text-align: center;
+
+    background-color: silver;
+}
+
+header
+{
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0px 4px 3px;
+    margin-bottom: 15px;
+}
+header img
+{
+    width:65px;
+    height:65px;
+    padding:15px;
+}
+
+p
+{
+    text-align: justify;
+    width:600px;
+
+    margin-left:35px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+article
+{
+    margin:10px auto;
+    width:445px;
+}
+#name
+{
+    text-decoration:underline;
+    
+}
+
+#generate
+{
+    font-size: 20px;
+    background-color:gold;
+    border-radius: 45px;
+}
