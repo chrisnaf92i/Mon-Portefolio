@@ -81,6 +81,39 @@ nav a:hover
     border-top: var(--ColorOr);
 }
 
+/* ------------------- Accueil ------------------- */
+#banniere
+{
+    background-image: url("images/Bannière/Bureau\ Dumb.jpg") no-repeat;
+
+    width: 1300px;
+    height:730px;
+    margin:50px auto 25px auto;
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position:relative;
+    
+    color:#B29166;
+    text-decoration: none;
+}
+
+.fa-chevron-circle-right
+{
+    font-size: 35px;
+}
+
+
+.fa-chevron-circle-left
+{
+    font-size: 35px;
+}
+
+
+/* ------------------- Page de contact ------------------- */
+
 #contact_page
 {
     display:flex;

@@ -1,0 +1,45 @@
+body
+{
+    background-color: grey;
+    color:white;
+}
+
+header
+{
+    display:flex;
+    align-items: flex-end;
+}
+
+header img
+{
+    width:150px;
+}
+header h1
+{
+    margin:0px;
+}
+header h2
+{
+    margin:0px;
+}
+
+#weapons
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:455px;
+}
+
+#weapons img
+{
+    width:125px;
+}
+
+#weapons article
+{
+    background-color: silver;
+    margin:5px;
+    padding:5px;
+    text-align: center;
+}

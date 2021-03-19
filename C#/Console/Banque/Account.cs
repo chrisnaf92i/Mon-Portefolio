@@ -4,10 +4,13 @@ namespace Banque
 {
     public class Account
     {
+        // Intégration de l'objet random
+        public Random random = new Random();
+
         // identité
-        public string nom;
-        public string prenom;
-        public string dateNaissance;
+        public string name;
+        public string firstName;
+        public string birthDate;
         public string adresse;
 
         // donnée bancaire
@@ -15,13 +18,13 @@ namespace Banque
         public int rib;
         public int currentAmount;
         
-        public Account(string _nom, string _prenom, string _dateNaissance, string _adresse)
+        public Account(string _name, string _firstName, string _birthDate, string _adresse)
         {
             currentAmount = 0;
 
-            nom = _nom;
-            prenom = _prenom;
-            dateNaissance = _dateNaissance;
+            name = _name;
+            firstName = _firstName;
+            birthDate = _birthDate;
             adresse = _adresse;
 
 
@@ -29,13 +32,13 @@ namespace Banque
             AccountNumber = GenerateAccountNumber();
             rib = GenerateRib();
 
-            Console.WriteLine("Création du compte de " + prenom + " " + nom + ".");
+            Console.WriteLine("Création du compte de " + firstName + " " + name + ".");
         }
 
         private int GenerateRib()
         {
-            int newRib = 5;
-
+            int newRib = random.Next(100000, 999999);
+            
             return newRib;
         }
         
@@ -50,21 +53,21 @@ namespace Banque
         {
             currentAmount += _amount;
 
-            Console.WriteLine("Vous venez de recevoir " + _amount + " e, vous avez maintenant " + currentAmount + " e");
+            Console.WriteLine("Vous venez de recevoir " + _amount + " EUR, vous avez maintenant " + currentAmount + " EUR");
         }
 
         public void pay(int _amount)
         {
             currentAmount -= _amount;
 
-            Console.WriteLine("Vous venez de payer " + _amount + " e, il vous reste " + currentAmount + " e");
+            Console.WriteLine("Vous venez de payer " + _amount + " EUR, il vous reste " + currentAmount + " EUR");
         }
 
         public void getReleverBancaire()
         {
-            Console.WriteLine("titulaire : " + prenom + " " + nom);
+            Console.WriteLine("titulaire : " + firstName + " " + name);
             Console.WriteLine("\t - rib : " + rib);
-            Console.WriteLine("\t - Current Amount : " + currentAmount + "e");
+            Console.WriteLine("\t - Montant Actuel : " + currentAmount + " EUR");
         }
     }
 }
