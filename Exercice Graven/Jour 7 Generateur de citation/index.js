@@ -1,6 +1,18 @@
-let GenerateButton = document.getElementById("generate");
+let generateBtn = document.getElementById("generate");
+let auther = document.getElementById("name");
+let img = document.getElementById("image");
+let citation = document.getElementById("citation");
 
-GenerateButton.addEventListener("click", function()
+
+
+
+generateBtn.addEventListener("click", GenerateCitation);
+
+function GenerateCitation()
 {
-    alert("click");
-});
+    auther.textContent = "Bill Gates";
+    img.innerHTML = "<img src='images/billgates.jpg' alt='Avatar'>";
+    citation.textContent = "Le logiciel est une excellente combinaison entre l'art et l'ingénieurie";
+
+}
+
