@@ -8,3 +8,60 @@ header
 {
     text-align: center;
 }
+
+#slider
+{
+    position:relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 400px;
+}
+#slides 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    max-height: 100%;
+
+    animation-name: slide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+#slides figure
+{
+    display: inline-block;
+    width: 100vw;
+    max-height:100%;
+    margin:0;
+}
+
+#slide img
+{
+    width:100%;
+    position:relative;
+
+    top:50%;
+    transform:translateY(-50%);
+}
+
+@keyframes slide
+{
+    0%, 20%, 100%
+    {
+        left:0;
+    }
+
+    35%, 50%
+    {
+        left:-100vw;
+    }
+    70%, 90%
+    {
+        left:-200px;
+    }
+}
+
